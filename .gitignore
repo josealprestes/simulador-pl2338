@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.vercel
+.gemini
+.opencode
+.kilo
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+coverage
+supabase-local-docker/
+.agents/
+
+# Opencode skills lock
+skills-lock.json
+
+# Test artifacts
+e2e-report/
+test-results/
+*.test-report
+.last-run.json
+lighthouse-report.html
+
+# Vibe planning artifacts
+.planning/
+.commandcode/
+
+# Generated design tokens (regenerate: npm run design:export)
+src/theme-generated.css
+
+# LangGraph SDLC
+langgraph-sdlc/.run/
+langgraph-sdlc/.venv/
+langgraph-sdlc/src/*.egg-info/
+.claude/
+*.orig
+.bin/
+
+# Playwright
+playwright-report/
+test-results/
